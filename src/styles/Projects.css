@@ -1,0 +1,34 @@
+/* Projects.css */
+#projects {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#projects h2 {
+  color: #333;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.card-text a {
+  color: #007bff;
+}
+
+.card-text a:hover {
+  text-decoration: none;
+}

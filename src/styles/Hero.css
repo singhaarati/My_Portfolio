@@ -1,0 +1,39 @@
+/* Hero.css */
+#hero {
+  background-image: url('https://static-cse.canva.com/blob/1134734/Thepowerofheroimagedesignfeaturedimage.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-content a:hover {
+  background-color: #0056b3;
+}
